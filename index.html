@@ -1,12 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>vue-todolist</title>
+    <link rel="stylesheet" href="./style.css">
     <script src="https://unpkg.com/vue@3.4.27/dist/vue.global.js"></script>
 </head>
+
 <body>
-    
+    <div class="container">
+        <h1>Prova</h1>
+        <div>
+            <ul class="container-lista">
+                <li v-for="singleTask, i in toDo">
+                    <p>{{ toDo[i] }}</p>
+                    <!-- <p>{{ singleTask[3] }}</p> Ma che succede qui? -->
+                </li>
+            </ul>
+        </div>
+        <script src="./main.js"></script>
 </body>
+
 </html>
