@@ -15,9 +15,10 @@
         <div>
             <ul class="container-lista">
                 <li v-for="singleTask, i in toDo">
-                    <span>{{ toDo[i] }}</span> <input v-model="text" type="text" placeholder="prova" name="serveperforza?"> <button @click="print">Invia</button>
+                    <span>{{ toDo[i] }}</span> <i @click="done(i)">X</i>
                     <!-- <p>{{ singleTask[3] }}</p> Ma che succede qui? -->
                 </li>
+                <input v-model="text" type="text" placeholder="prova" name="serveperforza?" minlength="3"> <button @click="print">Invia</button>
             </ul>
         </div>
         <script src="./main.js"></script>
