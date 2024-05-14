@@ -25,3 +25,4 @@ Se avete già svolto il bonus precedente, potete gestire il click sui singoli To
 
 Da chiedere:
     Che succede qui? L'array da cose strane
+    //Che succede qui se uso l'if? Come faccio a farlo funzionare con un if non in line?

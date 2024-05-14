@@ -15,3 +15,10 @@ i{
 li{
     margin-bottom: 1rem;
 }
+
+.taskDone{
+    color: green;
+}
+.taskNotDone{
+    color: red;
+}
