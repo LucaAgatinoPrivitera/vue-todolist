@@ -9,7 +9,8 @@ createApp({
                 "Giocare",
                 "Imparare"
             ],
-            task : 0
+            task : 0,
+            text : ""
 
         }
     },
@@ -17,6 +18,9 @@ createApp({
     methods: {
         done(indice) {
             this.toDo.splice(indice);
+        },
+        print(){
+            console.log(this.text)
         }
     }
 }).mount('.container-lista')
